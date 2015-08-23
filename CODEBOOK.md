@@ -1,17 +1,17 @@
 ## Codebook
-# 'features' 
+- 'features' 
 - the labels of dataset (561r,2cols)
-# 'lab1' 
+- 'lab1' 
 - the labels converted as string of characters (chr 1:561)
-# 'test' 
+- 'test' 
 - dataset binding xtest, ytest and stest (2947r,563cols)
-# 'train' 
+- 'train' 
 - dataset binding xtrain, ytrain and strain (27352r,563cols)
-# 'data1' 
+- 'data1' 
 - dataset binding test and train (10299r,563cols)
-# 'dataonly' 
+- 'dataonly' 
 - dataset with the columns with "Mean", "mean" and "std" (10299r,86cols)
-# Transform 'data1' 
+- Transform 'data1' 
 - depending on column 563 (activity)
         1 - "Walking"
         2 - "Walking Upstairs"
@@ -19,5 +19,5 @@
         4 - "Sitting"
         5 - "Standing"
         6 - "Laying"
-# 'total' 
+- 'total' 
 - final dataset with the mean of each activity (6r,563cols)
