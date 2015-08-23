@@ -81,6 +81,6 @@ total[3,] <- r13
 total[4,] <- r14
 total[5,] <- r15
 total[6,] <- r16
-
+print(total)
    ### Extract tiny final tiny dataset from step 5
 write.table(total, file = "getcleanPC.txt", row.name=FALSE)
